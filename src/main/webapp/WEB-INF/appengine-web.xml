@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
+    <application>enlacesrapidoscw360</application>
+    <version>1</version>
+    <threadsafe>true</threadsafe>
+    <system-properties>
+        <property name="java.util.logging.config.file" value="WEB-INF/logging.properties"/>
+    </system-properties>
+
+    <static-files>
+		<include path="/**.jpg" />
+		<include path="/**.gif" />
+		<include path="/**.png" />
+		<include path="/**.jpg" />
+		<include path="/**.gif" />
+		<include path="/**.js" />
+		<include path="/**.css" />
+		<include path="/**.swf" />
+		<include path="/**.xml" />
+		<include path="/**.eot" />
+		<include path="/**.svg" />
+		<include path="/**.ttf" />
+		<include path="/**.woff" />
+		<exclude path="/data/**.png" />
+	</static-files>
+
+	<sessions-enabled>true</sessions-enabled>
+</appengine-web-app>

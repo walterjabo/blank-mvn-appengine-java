@@ -1,0 +1,7 @@
+*\.class
+\.settings/*
+*classpath
+/bin/
+target/*
+userconfig.properties
+/target/
